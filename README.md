@@ -30,9 +30,17 @@
 
 [go4.org/intern高效字符串分配原理解析](https://mdlayher.com/blog/unsafe-string-interning-in-go/)
 
+## Interface
+
+[Go 经典入门系列 28：多态](https://mp.weixin.qq.com/s/A737eVVpUQgQgVDdaNZlkQ)
+
+## Runtime
+
+[Golang 的 sync.Pool设计思路与原理](https://mp.weixin.qq.com/s/765l6T6g9d4EEUyiHm52hw)
+
 ## Go Module
 
-
+[干货满满的 Go Modules 知识分享](https://mp.weixin.qq.com/s/uUNTH06_s6yzy5urtjPMsg)
 
 ## 并发编程
 
@@ -40,13 +48,15 @@
 
 [Week03: Go并发编程(八) 深入理解 sync.Once](https://lailin.xyz/post/go-training-week3-once.html)
 
- [Week03: Go并发编程(五) 深入理解 sync/atomic](_https://lailin.xyz/post/go-training-week3-atomic.html) 
+ [Week03: Go并发编程(五) 深入理解 sync/atomic](https://lailin.xyz/post/go-training-week3-atomic.html) 
 
 [Week03: Go并发编程(六) 深入理解 WaitGroup](https://lailin.xyz/post/go-training-week3-waitgroup.html)
 
 [并发编程--用SingleFlight合并重复请求](https://mp.weixin.qq.com/s/dlCzH96u9Qo8_p3GIIrq4Q)
 
 [Golang 并发编程核心篇 —— 内存可见性](https://mp.weixin.qq.com/s/1UHGU9tXu_h1C71APPxMwg)
+
+[Week03: Go并发编程(四) 深入理解 Mutex](https://lailin.xyz/post/go-training-week3-sync.html) 
 
 ## 常用关键字
 
@@ -55,6 +65,8 @@
 [Go 经典入门系列 28：Defer](https://mp.weixin.qq.com/s/4SNs84CJPvO8siIcuaNJ6A)
 
 [panic和recover](https://draveness.me/golang/docs/part2-foundation/ch05-keyword/golang-panic-recover/)
+
+[Go语言for-range排坑指南]( https://mp.weixin.qq.com/s/klJBAi5LvdJOGvma2Ir0OA)
 
 ## Template
 
@@ -80,11 +92,29 @@
 
 [利用 Watermill 实现 Golang CQRS](https://segmentfault.com/a/1190000038689477) 
 
-## Code Review及代码规范
+[aegis: 多平台调试状态监测库]( https://github.com/rafael-santiago/aegis)
+
+[trigger：基于谷歌 CEL 的决策引擎框架]( https://graphikdb.github.io/trigger/)
+
+[tupical-rest-server: 使用 typical-go 构建的 Web 项目模版](https://github.com/typical-go/typical-rest-server) 
+
+[evon: 一个基于代码生成的轻量级事件分发引擎]( https://github.com/lych77/evon)
+
+[Go实现的直播服务器](https://github.com/gwuhaolin/livego) 
+
+[webify: 将shell命令转换为web服务]( https://github.com/beefsack/webify)
+
+[gitlab的非官方命令行工具]( https://github.com/Ackerr/lab )
+
+## 代码规范及编程范式
 
 [记录一次Go代码review]( https://percybolmer1.medium.com/performing-a-code-review-1297967683f6)
 
 [如何写出优雅的go代码](https://draveness.me/golang-101/)
+
+[Go 编程模式：切片，接口，时间和性能]( https://coolshell.cn/articles/21128.html)
+
+[《Go编程模式》系列文章](https://coolshell.cn/articles/21128.html ) 
 
 ## Golang 新特性
 
@@ -114,6 +144,8 @@
 
 [反向 Go 二进制文件]( https://x0r19x91.gitlab.io/post/reversing-go-part-1/)
 
+[对BioNTech/Pfizer SARS-CoV-2疫苗的源代码进行逆向工程](https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/)
+
 ## 网络编程
 
 [一篇文章带你了解Go语言基础之网络编程](https://mp.weixin.qq.com/s/d0fODPAO3jfHcVZW2l-2UA)
@@ -126,13 +158,15 @@
 
 [HTTPS 温故知新（三） —— 直观感受 TLS 握手流程(上)](https://mp.weixin.qq.com/s/lVMjwNyEIKANIFNPTaZFpA)
 
+[HTTPS 温故知新（二） —— TLS 记录层协议](https://mp.weixin.qq.com/s/q2sOr98MS9PwN_mg_AdKyA)
+
 [Go netpoller 原生网络模型之源码全面揭秘]( https://strikefreedom.top/go-netpoll-io-multiplexing-reactor)
 
 ## 代码管理
 
 [我们如何构建GitHub Globe](https://github.blog/2020-12-21-how-we-built-the-github-globe/) 
 
-## 容器技术
+## 云原生
 
 [Kubernetes Service APIs 介绍](https://mp.weixin.qq.com/s/HZ82J0dihT0wfCESK5IORQ)
 
@@ -151,6 +185,16 @@
 [云原生制品那些事(2)：OCI 镜像规范](https://mp.weixin.qq.com/s/TVIz8p8nOj4ffYaECW7gVg) 
 
 [Prometheus监控神器-Kubernetes篇（三）](https://mp.weixin.qq.com/s/5Dj0Ju8ZTZyp-lVlx-RI2g)
+
+[Kubernetes中的有状态应用]( https://itnext.io/stateful-applications-in-kubernetes-808a60bc109)
+
+[Prometheus监控神器-Kubernetes篇（一）](https://mp.weixin.qq.com/s/fTaRqoy3zdwEFjGluwf_cw)
+
+[Prometheus监控神器-Kubernetes篇（二）](https://mp.weixin.qq.com/s/2snNW3JE99Knjv6ensJ7kw)
+
+[从k8s configmap中自动重新加载配置](https://william-yeh.net/post/2019/06/autoreload-from-configmap/)
+
+[使用Prometheus和RabbitMQ指标为Kubernetes定制HPA扩展](https://www.padok.fr/en/blog/scaling-prometheus-rabbitmq)
 
 ## 微服务
 
@@ -172,7 +216,9 @@
 
 [详解 Go 内联优化](https://mp.weixin.qq.com/s/89QLSqGzH0yUM6cO6V4zmQ)
 
-## 数据库及缓存
+[详解 Go 逃逸分析](https://mp.weixin.qq.com/s/xhBVv6JEPY8R3kCJlbirYw)
+
+## 数据库(缓存)
 
 [redis懒惰删除的巨大牺牲](https://mp.weixin.qq.com/s/IDGAT2y7xQmI97jO6oG_Tg)
 
@@ -192,9 +238,19 @@
 
 [redis基础](https://mp.weixin.qq.com/s/aOiadiWG2nNaZowmoDQPMQ)
 
+[分布式事务之底层原理](https://strikefreedom.top/distributed-transaction-theorems-uncovering) 
+
+## 分布式
+
+[raft算法知识树]( https://blog.dengqinghua.net/raft.html)
+
 ## Gin/Echo
 
 [Echo 系列：定制篇2 — 自定义 Validator，进行输入校验](https://mp.weixin.qq.com/s/CMBxIR0y6LxiIpDt6JYuDQ)
+
+[Go 语言 Web 框架 Echo 系列：定制篇1：自定义 Binder，处理 Request 数据绑定]( https://mp.weixin.qq.com/s/2wARcsszax6GFbZcjJPoig)
+
+
 
 ## 链路追踪
 
@@ -210,6 +266,10 @@
 
 [Web开发：Go vs. Python]( https://www.asapdevelopers.com/golang-vs-python/)
 
+[Go 语言有哪些 “劣势”]( https://gocn.vip/topics/11431) 
+
+[将Go作为商业语言]( https://www.hildeberto.com/2020/12/go-business-language.html)
+
 ## 消息中间件
 
 [Go 实现的实时消息服务器 Beaver](https://github.com/Clivern/Beaver) 
@@ -220,7 +280,11 @@
 
 [机器学习算法选择指南]( https://www.kdnuggets.com/2020/05/guide-choose-right-machine-learning-algorithm.html)
 
+[最快Levenshtein字符串距离算法的go实现]( https://github.com/ka-weihe/fast-levenshtein)
 
+## 安全
+
+[防止Go中的服务器端请求伪造行为(SSRF)]( https://www.agwa.name/blog/post/preventing_server_side_request_forgery_in_golang )
 
 ## 总结学习
 
@@ -257,3 +321,9 @@
 9. 使用索引的注意事项？
 10. 为什么要用 Redis 而不用 map/guava 做缓存?
 11. Redis有哪些数据类型
+
+### 语言相关
+
+- 互斥锁与读写锁的异同，尤其是互斥规则和行为模式方面的异同？
+
+- 互斥锁和读写锁的指针类型都实现了哪一个接口吗？
